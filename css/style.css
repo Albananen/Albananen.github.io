@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: xxx-large;
+    font-family: system-ui;
+    border-radius: 7px;
+
+}
+
+@font-face {
+  font-family: lcd;
+  src: url(../font/SUBWT___.ttf);
+}
+
+html {
+    font-size: 62.5%;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+  background: black;
+}
+
+main {
+
+}
+
+main input{
+    width: 99vw;
+    height: 13vh;
+    font-size: 3.5rem;
+    margin: 0.5vh 0.5vw 1.5vh 0.5vw;
+    background-color: black;
+    color: green;
+    text-align: right;
+    padding: 10px 4px 10px 4px;
+    font-family: lcd;
+    border: 1px solid yellow;
+    border-radius:4px;
+}
+/*deepskyblue*/
+main section#keyBoard{
+    /** Grid eller liknade */
+    display: inline-grid;
+    width: 100vw;
+    height: 85vh;
+}
+
+main section#keyBoard button:hover{
+    background: lightgray;
+}
+
+
+main section#keyBoard #add,#sub,#mul,#comma,#enter,#div, #clear{
+    color: deepskyblue;
+}
+
+
+/*
+@media (min-width: 767px) {
+    body {
+
+    }
+
+    main {
+
+    }
+
+    main input{
+      height: 30%;
+      border-width: 5px;
+    }
+
+    main section#keyBoard {
+      height: 67%;
+    }
+    */
+}
+/*
+@media (min-width: 339px) {
+    main {
+
+    }
+
+}
+*/
